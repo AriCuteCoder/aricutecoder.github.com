@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(126, 201, 255);
+    background-color:rgb(126, 158, 255);
     color: rgb(205, 112, 175);
 }
 main{
@@ -9,7 +9,7 @@ footer{
     color:palevioletred;
 }
 ul{
-    color:plum;
+    color:rgb(239, 115, 239);
 }
 p{
     color:black;
