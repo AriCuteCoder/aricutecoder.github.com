@@ -1,3 +1,67 @@
+
+.delius-regular {
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 h1{
     color:#D4B1FF;     
+}
+img {
+    width: 300px;
+    height:300px;
+}
+#naruto {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap:30px;
+    
+}
+.personaje-n {
+    border: dotted 3px orange;
+    background-color: lightblue;
+    margin: auto;
+    padding: 10px;
+}
+#my-hero{
+ display:grid;
+ grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap:10px;
+}
+.personaje-my{
+    border: dotted 3px yellow;
+    background-color: lightcoral;
+}
+#kny {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:10px;
+}
+.personaje-kny {
+    border: dotted 3px black;
+    background-color: green;
+}
+#hxh{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+    gap:10px;
+}
+.personaje-hxh{
+    border: dotted 3px green;
+    background-color:#F5913D ;
+}
+#bluelock{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap:10px;
+}
+.personaje-bl{
+    border: dotted 3px rgb(56, 56, 236);
+    background-color:lightskyblue;
 }
