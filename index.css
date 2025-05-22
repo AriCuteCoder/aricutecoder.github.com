@@ -1,12 +1,23 @@
 
-.delius-regular {
+body{
     font-family: "Delius", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-  
+    background-color:#F8D7FF;
+    justify-content: center;
+    text-align:center;
+} 
 h1{
-    color:#D4B1FF;     
+    text-align:left;
+    font-size:30px;
+    color: #F5913D;
+}
+h2{
+    font-size:30px;
+}
+#title{ 
+    color:#D4B1FF;  
+    font-size:40px;   
 }
 img {
     width: 300px;
@@ -24,44 +35,79 @@ img {
     background-color: lightblue;
     margin: auto;
     padding: 10px;
+    text-align:center;
 }
 #my-hero{
  display:grid;
  grid-template-columns:1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap:10px;
+    gap:30px;
 }
 .personaje-my{
     border: dotted 3px yellow;
     background-color: lightcoral;
+    margin: auto;
+    padding: 10px;
+    text-align:center;
 }
 #kny {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap:10px;
+    gap:30px;
 }
 .personaje-kny {
     border: dotted 3px black;
     background-color: green;
+    margin: auto;
+    padding: 10px;
+    text-align:center;
 }
 #hxh{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:1fr;
-    gap:10px;
+    gap:30px;
 }
 .personaje-hxh{
+    
     border: dotted 3px green;
     background-color:#F5913D ;
+    margin: auto;
+    padding: 10px;
+    text-align:center;
 }
 #bluelock{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    gap:10px;
+    gap:30px;
+    
 }
 .personaje-bl{
     border: dotted 3px rgb(56, 56, 236);
     background-color:lightskyblue;
+    margin: auto;
+    padding: 10px;
+    text-align:center;
+}
+#barra{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr;
+   list-style:none;
+   padding:0;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+li{
+    border: dashed 3px rgb(253, 134, 223);
+    margin:5px;
+    background-color:rgb(255, 186, 255);
+}
+#seccion2{
+    color:#D4B1FF;  
+    font-size:40px;  
 }
